@@ -1,0 +1,516 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec 18 12:57:11 2023
+# Process ID: 2724
+# Current directory: E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1/main.vds
+# Journal file: E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+INFO: [IP_Flow 19-2162] IP 'xadc_wiz_0' is locked:
+* IP definition 'XADC Wizard (3.0)' for IP 'xadc_wiz_0' (customized with software release 2015.1) has a newer minor version in the IP Catalog.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 344
+WARNING: [Synth 8-6901] identifier 'gameoverflag' is used before its declaration [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:43]
+WARNING: [Synth 8-6901] identifier 'tlstate' is used before its declaration [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:44]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:107]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:124]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:141]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:158]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:159]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:160]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:161]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:162]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:163]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:164]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:165]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:166]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:167]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:168]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:169]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:170]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:171]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:172]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:173]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:174]
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:175]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1036.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/main.v:3]
+INFO: [Synth 8-6157] synthesizing module 'gameplay' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:3]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1/.Xil/Vivado-2724-NPK1PRJ309V7/realtime/xadc_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (1#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1/.Xil/Vivado-2724-NPK1PRJ309V7/realtime/xadc_wiz_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'eos_out' of module 'xadc_wiz_0' is unconnected for instance 'XLXI_7' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:47]
+WARNING: [Synth 8-7023] instance 'XLXI_7' of module 'xadc_wiz_0' has 22 connections declared, but only 21 given [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:47]
+INFO: [Synth 8-6157] synthesizing module 'start_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/start_screen.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'start_screen' (2#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/start_screen.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'start_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:87]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'start_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:87]
+INFO: [Synth 8-6157] synthesizing module 'timeout_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/timeout_screen.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'timeout_screen' (3#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/timeout_screen.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'timeout_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:88]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'timeout_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:88]
+INFO: [Synth 8-6157] synthesizing module 'death_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/death_screen.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'death_screen' (4#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/death_screen.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'death_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:90]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'death_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:90]
+INFO: [Synth 8-6157] synthesizing module 'bg_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/bg2_12_bit_rom.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bg_rom' (5#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/bg2_12_bit_rom.v:1]
+WARNING: [Synth 8-689] width (11) of port connection 'row' does not match port width (7) of module 'bg_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:91]
+WARNING: [Synth 8-689] width (11) of port connection 'col' does not match port width (7) of module 'bg_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:91]
+INFO: [Synth 8-6157] synthesizing module 'death_1_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/death_1_new.v:1]
+	Parameter Z bound to: 12'b111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'death_1_rom' (6#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/death_1_new.v:1]
+WARNING: [Synth 8-689] width (11) of port connection 'row' does not match port width (9) of module 'death_1_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:92]
+WARNING: [Synth 8-689] width (11) of port connection 'col' does not match port width (10) of module 'death_1_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:92]
+INFO: [Synth 8-6157] synthesizing module 'death_2_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/death_2_new.v:1]
+	Parameter Z bound to: 12'b111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'death_2_rom' (7#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/death_2_new.v:1]
+WARNING: [Synth 8-689] width (11) of port connection 'row' does not match port width (9) of module 'death_2_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:93]
+WARNING: [Synth 8-689] width (11) of port connection 'col' does not match port width (10) of module 'death_2_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:93]
+INFO: [Synth 8-6157] synthesizing module 'death_3_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/death_3_new.v:1]
+	Parameter Z bound to: 12'b111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'death_3_rom' (8#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/death_3_new.v:1]
+WARNING: [Synth 8-689] width (11) of port connection 'row' does not match port width (9) of module 'death_3_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:94]
+WARNING: [Synth 8-689] width (11) of port connection 'col' does not match port width (10) of module 'death_3_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:94]
+INFO: [Synth 8-6157] synthesizing module 'createMaze' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/createMaze.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'createMaze' (9#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/createMaze.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'createMaze' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:95]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'createMaze' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:95]
+INFO: [Synth 8-6157] synthesizing module 'win_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/win_screen.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'win_screen' (10#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/win_screen.v:2]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'win_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:96]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'win_screen' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:96]
+INFO: [Synth 8-6157] synthesizing module 'gen_sync' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gen_sync.v:2]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/clk_div.v:2]
+	Parameter div_value bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (11#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/clk_div.v:2]
+INFO: [Synth 8-6157] synthesizing module 'h_counter' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/h_counter.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'h_counter' (12#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/h_counter.v:2]
+INFO: [Synth 8-6157] synthesizing module 'v_counter' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/v_counter.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'v_counter' (13#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/v_counter.v:2]
+INFO: [Synth 8-6157] synthesizing module 'vga_sync' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/vga_sync.v:2]
+	Parameter HD bound to: 640 - type: integer 
+	Parameter HF bound to: 16 - type: integer 
+	Parameter HR bound to: 96 - type: integer 
+	Parameter VD bound to: 490 - type: integer 
+	Parameter VF bound to: 10 - type: integer 
+	Parameter VR bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga_sync' (14#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/vga_sync.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'gen_sync' (15#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gen_sync.v:2]
+WARNING: [Synth 8-689] width (11) of port connection 'x_loc' does not match port width (10) of module 'gen_sync' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:97]
+WARNING: [Synth 8-689] width (11) of port connection 'y_loc' does not match port width (10) of module 'gen_sync' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:97]
+WARNING: [Synth 8-6090] variable 'mony' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:410]
+WARNING: [Synth 8-6090] variable 'mony' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:412]
+WARNING: [Synth 8-6090] variable 'monx' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:420]
+WARNING: [Synth 8-6090] variable 'monx' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:422]
+WARNING: [Synth 8-6090] variable 'monx' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:453]
+WARNING: [Synth 8-6090] variable 'mony' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:484]
+WARNING: [Synth 8-6090] variable 'mony' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:525]
+WARNING: [Synth 8-6090] variable 'monx' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:557]
+WARNING: [Synth 8-6090] variable 'mony' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:596]
+INFO: [Synth 8-6157] synthesizing module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/numbers.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'numbers' (16#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/numbers.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:618]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:618]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:619]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:619]
+WARNING: [Synth 8-689] width (11) of port connection 'xloc' does not match port width (10) of module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:620]
+WARNING: [Synth 8-689] width (11) of port connection 'yloc' does not match port width (10) of module 'numbers' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:620]
+INFO: [Synth 8-6157] synthesizing module 'charWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:3]
+	Parameter WIDTH bound to: 18 - type: integer 
+	Parameter HEIGHT bound to: 28 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'omorfront_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorfront.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'omorfront_rom' (17#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorfront.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (5) of module 'omorfront_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:42]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (5) of module 'omorfront_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:42]
+INFO: [Synth 8-6157] synthesizing module 'omorback_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorback.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'omorback_rom' (18#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorback.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (5) of module 'omorback_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:43]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (5) of module 'omorback_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:43]
+INFO: [Synth 8-6157] synthesizing module 'omorleft_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorleft.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'omorleft_rom' (19#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorleft.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (5) of module 'omorleft_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:44]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (5) of module 'omorleft_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:44]
+INFO: [Synth 8-6157] synthesizing module 'omorright_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorright.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'omorright_rom' (20#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/omorright.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (5) of module 'omorright_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:45]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (5) of module 'omorright_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'charWrap' (21#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/charWrap.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'x' does not match port width (10) of module 'charWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:622]
+WARNING: [Synth 8-689] width (11) of port connection 'y' does not match port width (10) of module 'charWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:622]
+INFO: [Synth 8-6157] synthesizing module 'monsterWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/monsterWrap.v:24]
+	Parameter WIDTH bound to: 35 - type: integer 
+	Parameter HEIGHT bound to: 51 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'whiteface_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/whiteface.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'whiteface_rom' (22#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/whiteface.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (6) of module 'whiteface_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/monsterWrap.v:52]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (6) of module 'whiteface_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/monsterWrap.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'monsterWrap' (23#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/monsterWrap.v:24]
+WARNING: [Synth 8-689] width (11) of port connection 'x' does not match port width (10) of module 'monsterWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:623]
+WARNING: [Synth 8-689] width (11) of port connection 'y' does not match port width (10) of module 'monsterWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:623]
+INFO: [Synth 8-6157] synthesizing module 'keyWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/keyWrap.v:3]
+	Parameter WIDTH bound to: 17 - type: integer 
+	Parameter HEIGHT bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'key_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:1]
+WARNING: [Synth 8-151] case item 7'b0010000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0110000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0010000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b1010000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0110000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b1010000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b1110000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b1110000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000001 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000010 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000011 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000100 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000101 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000110 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0000111 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001001 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001010 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001011 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001100 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001101 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001110 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0001111 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+WARNING: [Synth 8-151] case item 7'b0010000 is unreachable [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+INFO: [Synth 8-226] default block is never used [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'key_rom' (24#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/key_12_bit_rom.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (3) of module 'key_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/keyWrap.v:30]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (4) of module 'key_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/keyWrap.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'keyWrap' (25#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/keyWrap.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'x' does not match port width (10) of module 'keyWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:624]
+WARNING: [Synth 8-689] width (11) of port connection 'y' does not match port width (10) of module 'keyWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:624]
+INFO: [Synth 8-6157] synthesizing module 'gateWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gateWrap.v:2]
+	Parameter WIDTH bound to: 22 - type: integer 
+	Parameter HEIGHT bound to: 31 - type: integer 
+	Parameter HEIGHT2 bound to: 36 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'opengate_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/opengate_12_bit_rom.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'opengate_rom' (26#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/opengate_12_bit_rom.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (6) of module 'opengate_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gateWrap.v:38]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (5) of module 'opengate_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gateWrap.v:38]
+INFO: [Synth 8-6157] synthesizing module 'closedgate_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/closedgate_12_bit_rom.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'closedgate_rom' (27#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/closedgate_12_bit_rom.v:1]
+WARNING: [Synth 8-689] width (9) of port connection 'row' does not match port width (5) of module 'closedgate_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gateWrap.v:39]
+WARNING: [Synth 8-689] width (9) of port connection 'col' does not match port width (5) of module 'closedgate_rom' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gateWrap.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'gateWrap' (28#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gateWrap.v:2]
+WARNING: [Synth 8-689] width (11) of port connection 'x' does not match port width (10) of module 'gateWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:625]
+WARNING: [Synth 8-689] width (11) of port connection 'y' does not match port width (10) of module 'gateWrap' [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:625]
+INFO: [Synth 8-6155] done synthesizing module 'gameplay' (29#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/gameplay.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'main' (30#1) [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/sources_1/new/main.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1191.488 ; gain = 154.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1208.191 ; gain = 171.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1208.191 ; gain = 171.250
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 1208.191 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/constrs_1/new/killme.xdc]
+Finished Parsing XDC File [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/constrs_1/new/killme.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.srcs/constrs_1/new/killme.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1237.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1237.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 1237.148 ; gain = 200.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 1237.148 ; gain = 200.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for game/XLXI_7. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 1237.148 ; gain = 200.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:27 ; elapsed = 00:01:35 . Memory (MB): peak = 1237.148 ; gain = 200.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 8     
+	   2 Input   13 Bit       Adders := 2     
+	   3 Input   13 Bit       Adders := 10    
+	   2 Input   12 Bit       Adders := 21    
+	   2 Input   11 Bit       Adders := 79    
+	   2 Input   10 Bit       Adders := 2     
+	   3 Input    9 Bit       Adders := 8     
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 4     
+	   2 Input    2 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 3     
++---Registers : 
+	               18 Bit    Registers := 2     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 17    
+	               10 Bit    Registers := 9     
+	                9 Bit    Registers := 11    
+	                7 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 20    
++---ROMs : 
+	                    ROMs := 9     
++---Muxes : 
+	 923 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 9     
+	   4 Input   12 Bit        Muxes := 2     
+	   5 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 31    
+	   4 Input   11 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 12    
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 4     
+	   3 Input    4 Bit        Muxes := 1     
+	 505 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 44    
+	  11 Input    1 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:53 ; elapsed = 00:03:02 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+----------------+---------------+----------------+
+|Module Name | RTL Object     | Depth x Width | Implemented As | 
++------------+----------------+---------------+----------------+
+|key_rom     | color_data     | 128x2         | LUT            | 
+|charWrap    | sel_rep        | 1024x2        | Block RAM      | 
+|charWrap    | sel_rep        | 1024x2        | Block RAM      | 
+|charWrap    | sel            | 1024x2        | Block RAM      | 
+|monsterWrap | sel            | 4096x2        | Block RAM      | 
+|keyWrap     | key/color_data | 128x2         | LUT            | 
+|gateWrap    | sel            | 2048x2        | Block RAM      | 
+|gateWrap    | sel            | 1024x2        | Block RAM      | 
+|gameplay    | sel            | 16384x3       | Block RAM      | 
+|gameplay    | sel            | 262144x1      | Block RAM      | 
+|gameplay    | sel_rep        | 262144x1      | Block RAM      | 
++------------+----------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:06 ; elapsed = 00:03:16 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:06 ; elapsed = 00:03:16 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance game/char/sel_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/char/sel_rep__0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/char/sel (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/monster/sel (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/gate/sel (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/gate/sel__0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_1__0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_rep_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_rep_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_rep_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance game/sel_rep_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:09 ; elapsed = 00:03:19 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin di_in[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin dwe_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin vp_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \game/XLXI_7  has unconnected pin vn_in
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:15 ; elapsed = 00:03:25 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:15 ; elapsed = 00:03:25 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |xadc_wiz_0    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |xadc_wiz |     1|
+|2     |BUFG     |     3|
+|3     |CARRY4   |   308|
+|4     |LUT1     |   170|
+|5     |LUT2     |  1120|
+|6     |LUT3     |   273|
+|7     |LUT4     |   292|
+|8     |LUT5     |   411|
+|9     |LUT6     |  1512|
+|10    |MUXF7    |    38|
+|11    |MUXF8    |    10|
+|12    |RAMB18E1 |     7|
+|19    |RAMB36E1 |    17|
+|34    |FDRE     |   252|
+|35    |FDSE     |     4|
+|36    |IBUF     |    11|
+|37    |OBUF     |    14|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1385.219 ; gain = 348.277
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 19 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:33 ; elapsed = 00:03:20 . Memory (MB): peak = 1385.219 ; gain = 319.320
+Synthesis Optimization Complete : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1385.219 ; gain = 348.277
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 1385.219 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 380 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1385.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+93 Infos, 110 Warnings, 19 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:27 ; elapsed = 00:03:40 . Memory (MB): peak = 1385.219 ; gain = 348.277
+INFO: [Common 17-1381] The checkpoint 'E:/HUNotes/Sophomore_Fall/5_DLD/dldProject/abyss_escape/abyss_escape.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 18 13:01:11 2023...
